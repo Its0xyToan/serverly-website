@@ -7,8 +7,8 @@ import type React from "react" // Added import for React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "Serverly - Your New Discord Bot Friend",
-    description: "Discover Serverly, your new Discord bot companion",
+    title: "Serverly",
+    description: "Make your server go to the next level with Serverly",
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
