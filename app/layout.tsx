@@ -3,6 +3,8 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Navbar from "../components/NavBar"
 import type React from "react" // Added import for React
+import { useEffect, useState } from "react"
+import { StatsProvider } from "@/lib/StatsProvider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -15,8 +17,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en" className="dark">
             <body className={`${inter.className} bg-gray-900 text-white`}>
-                <Navbar />
-                {children}
+                <StatsProvider>
+                    <Navbar />
+                    {children}
+                </StatsProvider>
             </body>
         </html>
     )
