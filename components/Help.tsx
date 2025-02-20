@@ -9,24 +9,14 @@ const Help = () => {
                 </div>
 
                 <h2 className="text-4xl font-bold mb-12 text-center">Get Help with Serverly</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
                     <div className="p-6 rounded-lg border border-gray-700">
-                        <h3 className="text-2xl font-bold mb-4 text-blue-400">Documentation</h3>
+                        <h3 className="text-2xl font-bold mb-4 text-blue-400">Support Server</h3>
                         <p className="mb-4">
-                            Explore our comprehensive documentation to learn about all of Serverly's features and how to use them
-                            effectively.
+                            Get help, report bugs, submit suggestions, all on our Support Server. Connect with the community, or get a notification when new updates drop and if there is any outage in this moment.
                         </p>
-                        <a href="#" className="text-cyan-400 hover:underline">
-                            Read the Docs →
-                        </a>
-                    </div>
-                    <div className="p-6 rounded-lg border border-gray-700">
-                        <h3 className="text-2xl font-bold mb-4 text-purple-400">Community Support</h3>
-                        <p className="mb-4">
-                            Join our vibrant community on Discord to get help, share ideas, and connect with other Serverly users.
-                        </p>
-                        <a href="#" className="text-cyan-400 hover:underline">
-                            Join our Discord →
+                        <a href="/support" className="text-cyan-400 hover:underline">
+                            Support Server
                         </a>
                     </div>
                 </div>

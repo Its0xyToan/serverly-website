@@ -9,26 +9,17 @@ const Discover = () => {
                 </div>
 
                 <h2 className="text-4xl font-bold mb-12 text-center">Discover Serverly's Features</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="p-6 rounded-lg border border-gray-700">
-                        <h3 className="text-2xl font-bold mb-4 text-blue-400">Moderation</h3>
+                        <h3 className="text-2xl font-bold mb-4 text-primary">Moderation</h3>
                         <p>
-                            Keep your server safe with advanced moderation tools, including auto-moderation, custom filters, and
-                            detailed logs.
+                            Easily manage your guild's moderation cases with Serverly's complex case, logs, and warning modules for a maximum control over your server.
                         </p>
                     </div>
                     <div className="p-6 rounded-lg border border-gray-700">
-                        <h3 className="text-2xl font-bold mb-4 text-cyan-400">Fun Commands</h3>
+                        <h3 className="text-2xl font-bold mb-4 text-secondary">Control new members</h3>
                         <p>
-                            Engage your community with a variety of fun commands, games, and interactive features that keep the
-                            conversation lively.
-                        </p>
-                    </div>
-                    <div className="p-6 rounded-lg border border-gray-700">
-                        <h3 className="text-2xl font-bold mb-4 text-purple-400">Productivity</h3>
-                        <p>
-                            Boost your server's productivity with polls, reminders, and custom command creation to streamline your
-                            workflows.
+                            Easily control new members with OnBoarding Timeout, AutoRole, and more.
                         </p>
                     </div>
                 </div>

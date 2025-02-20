@@ -18,13 +18,13 @@ const Hero = () => {
                     <span className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary animate-float">Serverly</span>
                 </h1>
                 <p className="text-xl mb-8 max-w-2xl mx-6">
-                    Make your server go to the next level with Serverly, extend other bot's modules and systems, do what hasn't been done before.
+                Make your server go to the next level with Serverly, extend other bot's modules and systems, do what hasn't been done before.
                 </p>
                 <div className="flex justify-center space-x-4">
-                    <Link href="#" className="bg-primary text-background hover:-translate-y-1/4 shadow-background shadow-lg font-bold py-2 px-6 rounded-full transition-all">
+                    <Link href="/invite" className="bg-primary text-background hover:-translate-y-1/4 shadow-background shadow-lg font-bold py-2 px-6 rounded-full transition-all">
                         Invite
                     </Link>
-                    <Link href="#" className="bg-secondary text-background hover:-translate-y-1/4 shadow-background shadow-lg font-bold py-2 px-6 rounded-full transition-all">
+                    <Link href="/support" className="bg-secondary text-background hover:-translate-y-1/4 shadow-background shadow-lg font-bold py-2 px-6 rounded-full transition-all">
                         Support
                     </Link>
                 </div>
