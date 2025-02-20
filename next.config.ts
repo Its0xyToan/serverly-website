@@ -28,6 +28,10 @@ const nextConfig: NextConfig = {
         }
       ]
   },
+  experimental: {
+    workerThreads: false,
+      cpus: 4
+  }
 };
 
 export default nextConfig;
