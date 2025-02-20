@@ -20,6 +20,14 @@ const nextConfig: NextConfig = {
       },
     ]
   },
+  async rewrites() {
+      return [
+        {
+          source: "/status",
+          destination: "http://node01.fluxbot.eu:50010/status/serverly"
+        }
+      ]
+  },
 };
 
 export default nextConfig;
