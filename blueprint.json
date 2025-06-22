@@ -1,0 +1,17 @@
+{
+    "name": "serverly-website",
+    "version": "1.0.5",
+    "description": "A template for a discord bot made with discord.js",
+    "author": "OxyToan",
+    "code_language": "TypeScript",
+    "natural_language": "English",
+    "archive": {
+        "exclude": [
+            ".blueprint",
+            ".env",
+            ".yarn",
+            ".pnp.cjs"
+        ],
+        "outdir": "./.blueprint"
+    }
+}
